@@ -1,0 +1,137 @@
+body{
+    background-color: rgb(243, 238, 231);
+    margin: 0;
+}
+/* css header*/
+header{
+    /*position: fixed;*/
+    margin: 30px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: rgb(121, 174, 109);
+    border-radius: 15px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 100px 10px 10px;
+
+}
+
+nav ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: black;
+}
+/* css main*/
+#imgheader{
+    padding-top: 10px;
+    padding: auto;
+    margin: auto;
+    display: block;
+    border-radius: 45px;
+    width: 50%;
+    height: 50%;
+}
+
+.main-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.main-principal section{
+    width: 700px;
+    height: auto;
+}
+
+#pag-principal{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#p-principal{
+    text-align: center;
+}
+
+#span-index{
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(43, 138, 35);
+}
+/* css footer*/
+
+.footer-index{
+    background: rgb(210, 234, 197);
+    display: grid;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 100px;
+    grid-gap: 5px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.footer-index > div {
+    border-radius: 45px;
+    padding:10px;
+    /*border: solid red;*/
+  }
+
+  footer div img{
+    width: 80px;
+    height: auto;
+  }
+
+
+
+
+
+/*
+.footer-index{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(232, 223, 213);
+    justify-content: space-evenly;
+    border-radius: 45px;
+    padding-left: 100px;
+}
+
+footer p{
+    font-weight: bold;
+    font-style: italic;
+    font-size: x-large;
+    margin-top: 60px;
+}
+
+
+footer div img{
+    width: 120px;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+
+}
+*/
